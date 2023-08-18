@@ -136,3 +136,101 @@ video{
     mix-blend-mode: overlay;
 }
 
+/* MEDIA QUERY*/
+@media only screen and (max-width:600px){
+    #container{
+        padding: 30px;
+    }
+    #navigator li.lol{
+        display: none;
+    }
+    #navigator li.book a{
+        background-color: #03a9f4;
+        margin-bottom: 10px;
+    }
+    
+    #navigator a::after{
+        display: none;
+    }
+    #navigator a:hover::after{
+        display: none;
+    }
+
+    #navigator h2{
+        background-color: #03a9f4;
+        padding: 10px;
+    }
+    #yeah{
+        width: 300px;
+    }
+    #yeah h2{
+        font-size: 20px;
+    }
+    #yeah h3{
+        font-size: 18px;
+        margin-top: 0px;
+    }
+    #yeah p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    #yeah a{
+        font-size: 10px;
+    }
+    #socials{
+        padding: 15px;
+    }
+    #socials div{
+        transform: scale(0.7);
+    }
+    #socials div:hover{
+        transform: scale(0.7) translateY(-15px);
+    }
+
+
+}
+
+@media only screen and (max-width:980px){
+    #container{
+        padding: 30px;
+    }
+    #navigator li.lol{
+        display: none;
+    }
+    #navigator li.book a{
+        background-color: #03a9f4;
+        margin-bottom: 10px;
+    }
+    
+    #navigator a::after{
+        display: none;
+    }
+    #navigator a:hover::after{
+        display: none;
+    }
+
+    #navigator h2{
+        background-color: #03a9f4;
+        padding: 10px;
+    }
+    #yeah h2{
+        font-size: 30px;
+    }
+    #yeah h3{
+        font-size: 25px;
+        margin-top: 0px;
+    }
+    #yeah p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    #yeah a{
+        font-size: 10px;
+    }
+    #socials{
+        padding: 15px;
+    }
+
+
+}
+
