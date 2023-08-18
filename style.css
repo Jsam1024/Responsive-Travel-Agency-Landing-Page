@@ -42,11 +42,11 @@ ul li a{
 #navigator a::after {
     content: '';
     position: absolute;
-    bottom: -2px; /* Adjust as needed to control the distance from the text */
+    bottom: -2px;
     left: 0;
     width: 100%;
-    border-bottom: 2px solid transparent; /* Start with transparent border */
-    transition: 1s ease-in-out; /* Add a smooth color transition */
+    border-bottom: 2px solid transparent;
+    transition: 1s ease-in-out;
   }
   
 #navigator a:hover::after {
