@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 100%;
+    padding: 40px 75px 0px 75px;
+    font-family: sans-serif;
+    position: absolute;
+    color: white;
+}
+
+#navigator{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul{
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#navigator h2{
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#yeah{
+    margin-top: 150px;
+    padding: 10px;
+    width: 600px;
+    z-index: 40;
+}
+#yeah h2{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+#yeah h3{
+    font-size: 35px;
+    margin-top: -15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#yeah p{
+    margin-bottom: 25px;
+}
+#yeah a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+#socials{
+    padding: 10px;
+    display: flex;
+    margin-top: 125px;
+    margin-bottom: 10px;
+}
+#socials div{
+    margin-right: 15px;
+}
+
+video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    background-color: #03a9f4;
+    mix-blend-mode: overlay;
+}
+
