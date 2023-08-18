@@ -34,10 +34,32 @@ ul li a{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+#navigator a {
+    position: relative;
+  }
+  
+#navigator a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust as needed to control the distance from the text */
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid transparent; /* Start with transparent border */
+    transition: 1s ease-in-out; /* Add a smooth color transition */
+  }
+  
+#navigator a:hover::after {
+    border-bottom-color: #fff;
+  }
+
+
+
 #navigator h2{
     text-transform: uppercase;
     cursor: pointer;
     margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #yeah{
@@ -61,7 +83,7 @@ ul li a{
     margin-bottom: 25px;
 }
 #yeah a{
-    margin-top: 10px;
+    display: inline-block;
     text-decoration: none;
     color: #000000;
     background-color: white;
@@ -71,6 +93,7 @@ ul li a{
     letter-spacing: 2px;
     transition: 0.2s;
 }
+
 #yeah a:hover{
     letter-spacing: 6px;
 }
